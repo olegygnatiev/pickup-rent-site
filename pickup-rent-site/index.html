@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Аренда пикапов Changan Hunter Plus в Москве | FELPME</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+</head>
+<body>
+
+<header>
+  <div class="container header-wrap">
+    <img src="images/logo-brown.png" alt="FELPME" class="logo"/>
+    <nav>
+      <a href="#fleet">Автопарк</a>
+      <a href="#pricing">Стоимость</a>
+      <a href="#reviews">Отзывы</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+    <a href="#order" class="btn-primary">Забронировать</a>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container">
+    <h1>Аренда пикапов Changan Hunter Plus в Москве</h1>
+    <p>Надёжный транспорт для города и бездорожья. Доставка по Москве и области.</p>
+    <a href="#order" class="btn-primary">Заказать пикап</a>
+  </div>
+</section>
+
+<section class="advantages container">
+  <div class="adv-item">🚚 Бесплатная доставка в пределах МКАД</div>
+  <div class="adv-item">🛡 Полная страховка включена</div>
+  <div class="adv-item">💰 Честная цена без скрытых платежей</div>
+  <div class="adv-item">📆 Аренда от 1 дня до долгосрочной</div>
+</section>
+
+<section id="fleet" class="container">
+  <h2>Наш автопарк</h2>
+  <div class="fleet-grid">
+    <div class="car-card">
+      <img src="images/hunter1.webp" alt="Changan Hunter Plus"/>
+      <p>Двигатель: 2.0T <br> Полный привод <br> Грузоподъёмность до 1000 кг <br> 5 мест</p>
+    </div>
+    <div class="car-card">
+      <img src="images/hunter2.webp" alt="Changan Hunter Plus"/>
+      <p>Двигатель: 2.0T <br> Полный привод <br> Увеличенный кузов <br> 5 мест</p>
+    </div>
+    <div class="car-card">
+      <img src="images/hunter3.webp" alt="Changan Hunter Plus"/>
+      <p>Двигатель: 2.0T <br> Полный привод <br> Грузоподъёмность до 1000 кг <br> 5 мест</p>
+    </div>
+  </div>
+</section>
+
+<section id="pricing" class="pricing">
+  <div class="container">
+    <h2>Стоимость аренды</h2>
+    <table>
+      <tr><th>Срок аренды</th><th>Цена / сутки</th></tr>
+      <tr><td>1–3 дня</td><td>6500 ₽</td></tr>
+      <tr><td>4–7 дней</td><td>6000 ₽</td></tr>
+      <tr><td>8–30 дней</td><td>5500 ₽</td></tr>
+      <tr><td>От 1 месяца</td><td>5000 ₽</td></tr>
+    </table>
+  </div>
+</section>
+
+<section id="reviews" class="reviews container">
+  <h2>Отзывы клиентов</h2>
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="review">
+          <img src="images/client1.webp" alt="Отзыв"/>
+          <p>Всё прошло отлично! Пикап доставили вовремя, состояние отличное.</p>
+          <span>★★★★★</span>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="review">
+          <img src="images/client2.webp" alt="Отзыв"/>
+          <p>Очень доволен, взял на 5 дней. Машина идёт уверенно.</p>
+          <span>★★★★★</span>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="review">
+          <img src="images/client3.webp" alt="Отзыв"/>
+          <p>Спасибо за оперативность! Буду заказывать ещё.</p>
+          <span>★★★★★</span>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+</section>
+
+<section id="contacts" class="contacts">
+  <div class="container">
+    <h2>Свяжитесь с нами</h2>
+    <p>Телефон: <a href="tel:+79651147422">+7 (965) 114-74-22</a></p>
+    <div class="contact-buttons">
+      <a href="https://wa.me/79651147422" target="_blank" class="btn-whatsapp">Написать в WhatsApp</a>
+      <a href="https://t.me/+79651147422" target="_blank" class="btn-telegram">Написать в Telegram</a>
+    </div>
+
+    <form id="order" action="https://formspree.io/f/ВАШ-ID" method="POST">
+      <input type="hidden" name="_replyto" value="olegygnatiev@yandex.ru">
+      <input type="text" name="name" placeholder="Имя" required>
+      <input type="tel" name="phone" placeholder="Телефон" required>
+      <input type="date" name="date" required>
+      <button type="submit" class="btn-primary">Отправить</button>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <img src="images/logo-white.png" alt="FELPME" class="logo"/>
+    <p>© 2024 FELPME</p>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
